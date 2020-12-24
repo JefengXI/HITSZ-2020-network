@@ -1,0 +1,59 @@
+The system is: Linux - sh: 0: getcwd() failed: No such file or directory
+4.15.0-123-generic - sh: 0: getcwd() failed: No such file or directory
+x86_64
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/user1/Documents/net_lab/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_12053/fast"
+/usr/bin/make -f CMakeFiles/cmTC_12053.dir/build.make CMakeFiles/cmTC_12053.dir/build
+make[1]: Entering directory '/home/user1/Documents/net_lab/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_12053.dir/testCCompiler.c.o
+/usr/bin/x86_64-linux-gnu-gcc-5    -o CMakeFiles/cmTC_12053.dir/testCCompiler.c.o   -c /home/user1/Documents/net_lab/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_12053
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12053.dir/link.txt --verbose=1
+/usr/bin/x86_64-linux-gnu-gcc-5      CMakeFiles/cmTC_12053.dir/testCCompiler.c.o  -o cmTC_12053 
+make[1]: Leaving directory '/home/user1/Documents/net_lab/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/user1/Documents/net_lab/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d9617/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d9617.dir/build.make CMakeFiles/cmTC_d9617.dir/build
+make[1]: Entering directory '/home/user1/Documents/net_lab/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d9617.dir/CMakeCCompilerABI.c.o
+/usr/bin/x86_64-linux-gnu-gcc-5    -o CMakeFiles/cmTC_d9617.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.9/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_d9617
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9617.dir/link.txt --verbose=1
+/usr/bin/x86_64-linux-gnu-gcc-5      CMakeFiles/cmTC_d9617.dir/CMakeCCompilerABI.c.o  -o cmTC_d9617 
+make[1]: Leaving directory '/home/user1/Documents/net_lab/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/user1/Documents/net_lab/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c0db6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c0db6.dir/build.make CMakeFiles/cmTC_c0db6.dir/build
+make[1]: Entering directory '/home/user1/Documents/net_lab/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c0db6.dir/testCXXCompiler.cxx.o
+/usr/bin/x86_64-linux-gnu-g++-5     -o CMakeFiles/cmTC_c0db6.dir/testCXXCompiler.cxx.o -c /home/user1/Documents/net_lab/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_c0db6
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0db6.dir/link.txt --verbose=1
+/usr/bin/x86_64-linux-gnu-g++-5       CMakeFiles/cmTC_c0db6.dir/testCXXCompiler.cxx.o  -o cmTC_c0db6 
+make[1]: Leaving directory '/home/user1/Documents/net_lab/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/user1/Documents/net_lab/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_be394/fast"
+/usr/bin/make -f CMakeFiles/cmTC_be394.dir/build.make CMakeFiles/cmTC_be394.dir/build
+make[1]: Entering directory '/home/user1/Documents/net_lab/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_be394.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/x86_64-linux-gnu-g++-5     -o CMakeFiles/cmTC_be394.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_be394
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be394.dir/link.txt --verbose=1
+/usr/bin/x86_64-linux-gnu-g++-5       CMakeFiles/cmTC_be394.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_be394 
+make[1]: Leaving directory '/home/user1/Documents/net_lab/build/CMakeFiles/CMakeTmp'
+
+
